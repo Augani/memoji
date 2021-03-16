@@ -1,7 +1,7 @@
 {
   "name": "Memoji",
   "version": "0.1.0",
-  "homepage": "https://github.com/Augani/memoji",
+  "homepage": "https://augani.github.io/memoji/",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.0.0",
