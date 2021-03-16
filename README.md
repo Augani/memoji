@@ -45,7 +45,7 @@ This is a project to provide memoji images based on a preference
 ## :rocket: How it works ##
 
 
-```js
+```
 # To use the api, this is the main link
 `https://memoji.herokuapp.com/{version}/{quantity}/{gender}/{race}`
 
@@ -56,6 +56,7 @@ This is a project to provide memoji images based on a preference
 
 # Quantities supported are all ie. All the photos currently supported or 1 which is randomly generated
  quantity = Either 'all' || 1
+# Response is the link of the image if quantity is one whereas it's an array if quantity is all 
 
 # Either male or female
  gender(optional) = Either "m" || "f"
