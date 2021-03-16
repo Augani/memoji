@@ -46,25 +46,12 @@
 
 ## :dart: About ##
 
-Describe your project
+This is a project to provide memoji images based on a preference
 
-## :sparkles: Features ##
-
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
-
-## :rocket: Technologies ##
-
-The following tools were used in this project:
-
-- [Node.js](https://nodejs.org/en/)
+## :rocket: How it works ##
 
 
-## :white_check_mark: Requirements ##
-
-
-```bash
+```js
 # To use the api, this is the main link
 $ https://memoji.herokuapp.com/{version}/{quantity}/{gender}/{race}
 
@@ -89,7 +76,6 @@ The gender or race param is optional, when not provided, the api will return a r
 This project is using images by egokomarov, thanks to him
 
 
-# The server will initialize in the <http://localhost:3000>
 ```
 
 ## :memo: License ##
@@ -97,7 +83,7 @@ This project is using images by egokomarov, thanks to him
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/augani" target="_blank">{{YOUR_NAME}}</a>
+Made with :heart: by <a href="https://github.com/augani" target="_blank">Augustus Otu</a>
 
 &#xa0;
 
