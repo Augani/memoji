@@ -53,22 +53,22 @@ This is a project to provide memoji images based on a preference
 
 ```js
 # To use the api, this is the main link
-$ https://memoji.herokuapp.com/{version}/{quantity}/{gender}/{race}
+`https://memoji.herokuapp.com/{version}/{quantity}/{gender}/{race}`
 
 # The various params are as follows
 
-Version number will always remain the same since its the first
-$ version = v1
+# Version number will always remain the same since its the first
+ version = v1
 
-Quantities supported are all ie. All the photos currently supported or 1 which is randomly generated
-$ quantity = Either 'all' || 1
+# Quantities supported are all ie. All the photos currently supported or 1 which is randomly generated
+ quantity = Either 'all' || 1
 
-Either male or female
-$ gender(optional) = Either "m" || "f"
+# Either male or female
+ gender(optional) = Either "m" || "f"
 
 
-Either black or white
-$ race(optional) = Either "b" || "w"
+# Either black or white
+ race(optional) = Either "b" || "w"
 
 
 The gender or race param is optional, when not provided, the api will return a random memoji
