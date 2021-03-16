@@ -75,7 +75,7 @@ This project is using images by egokomarov, thanks to him
 
 ## :memo: License ##
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
 
 
 Made with :heart: by <a href="https://github.com/augani" target="_blank">Augustus Otu</a>
