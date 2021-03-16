@@ -13,7 +13,11 @@ function App() {
       <div className="w-full h-16">
       </div>
       <main className="w-full h-full overflow-y-auto grid-cols-1 gap-2 lg:gap-4 lg:grid-cols-4">
-        {links && links.map((v)=><img src={v} className="h-32 rounded-md shadow-lg hover:scale-300 transition duration-150 hover:border-blue-400" />)}
+        {links.length? links.map((v)=><img src={v} className="h-32 rounded-md shadow-lg hover:scale-300 transition duration-150 hover:border-blue-400" alt="memoji" />):(<div className="col-span-1 lg:col-span-4">
+          <div className="w-full h-full flex flex-col justify-center items-center ">
+          <h1 className="text-lg font-semibold">Api Unavailable</h1>
+          </div>
+          </div>)}
       </main>
     </div>
   );
